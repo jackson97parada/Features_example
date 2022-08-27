@@ -1,0 +1,67 @@
+body {
+  scroll-behavior: smooth;
+}
+.b-example-divider {
+  height: 3rem;
+  background-color: rgba(0, 0, 0, 0.1);
+  border: solid rgba(0, 0, 0, 0.16);
+  border-width: 1px 0;
+  box-shadow: inset 0 0.5em 1.5em rgb(0 0 0 / 10%),
+    inset 0 0.125em 0.5em rgb(0 0 0 / 15%);
+}
+/* First Feature */
+.feature-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 4rem;
+  height: 4rem;
+  margin-bottom: 1rem;
+  border-radius: 0.75rem;
+}
+.icon-link > .feature-icon-right {
+  margin-top: 0.325rem;
+  margin-left: 0.425rem;
+  transition: transform 0.25s ease-in-out;
+  fill: currentColor;
+}
+.icon-link:hover > .feature-icon-right {
+  transform: translate(0.25rem);
+}
+/* Second Feature */
+.icon-square {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 3rem;
+  height: 3rem;
+  font-size: 1.5rem;
+  border-radius: 0.75rem;
+  background: rgb(248, 249, 250);
+}
+/* Tirth Feature */
+.article-one {
+  width: 38.3rem;
+  overflow: hidden;
+  background-image: url(/images/unsplash-photo-1.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.article-two {
+  width: 38.3rem;
+  overflow: hidden;
+  background-image: url(/images/unsplash-photo-2.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.article-three {
+  width: 38.3rem;
+  overflow: hidden;
+  object-fit: scale-down;
+  background-image: url(/images/unsplash-photo-3.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.text-shadow {
+  text-shadow: 0 0.125rem 0.25rem rgb(0 0 0 / 25%);
+}
