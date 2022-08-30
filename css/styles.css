@@ -43,7 +43,7 @@ body {
 .article-one {
   width: 38.3rem;
   overflow: hidden;
-  background-image: url(../images/unplash/unsplash-photo-1);
+  background-image: url(../images/unplash/unsplash-photo-1.jpg);
   background-size: cover;
   background-position: center;
 }
