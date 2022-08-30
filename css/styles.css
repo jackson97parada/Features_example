@@ -65,3 +65,10 @@ body {
 .text-shadow {
   text-shadow: 0 0.125rem 0.25rem rgb(0 0 0 / 25%);
 }
+@media screen and (max-width: 768px) {
+  .article-one,
+  .article-two,
+  .article-three {
+    width: 100%;
+  }
+}
