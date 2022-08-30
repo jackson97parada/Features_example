@@ -50,7 +50,7 @@ body {
 .article-two {
   width: 38.3rem;
   overflow: hidden;
-  background-image: url(./images/unplash/unsplash-photo-2.jpg);
+  background-image: url(../images/unplash/unsplash-photo-2.jpg);
   background-size: cover;
   background-position: center;
 }
@@ -58,7 +58,7 @@ body {
   width: 38.3rem;
   overflow: hidden;
   object-fit: scale-down;
-  background-image: url(./images/unplash/unsplash-photo-3.jpg);
+  background-image: url(../images/unplash/unsplash-photo-3.jpg);
   background-size: cover;
   background-position: center;
 }
